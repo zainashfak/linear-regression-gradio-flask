@@ -1,0 +1,14 @@
+<h2>Concrete Strength Predictor</h2>
+<p><a href="/">Insurance</a> | <a href="/concrete">Concrete</a></p>
+<form method="post">
+  Cement: <input type="number" step="any" name="cement" required><br><br>
+  Slag: <input type="number" step="any" name="slag" required><br><br>
+  Ash: <input type="number" step="any" name="ash" required><br><br>
+  Water: <input type="number" step="any" name="water" required><br><br>
+  Superplasticizer: <input type="number" step="any" name="superplastic" required><br><br>
+  Coarse aggregate: <input type="number" step="any" name="coarseagg" required><br><br>
+  Fine aggregate: <input type="number" step="any" name="fineagg" required><br><br>
+  Age (days): <input type="number" step="any" name="age" required><br><br>
+  <button type="submit">Predict</button>
+</form>
+{% if result is not none %}<h3>Predicted strength: {{ result }} MPa</h3>{% endif %}

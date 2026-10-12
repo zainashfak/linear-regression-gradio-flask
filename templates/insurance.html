@@ -1,0 +1,15 @@
+<h2>Insurance Cost Predictor</h2>
+<p><a href="/">Insurance</a> | <a href="/concrete">Concrete</a></p>
+<form method="post">
+  Age: <input type="number" name="age" required><br><br>
+  Sex: <select name="sex"><option>male</option><option>female</option></select><br><br>
+  BMI: <input type="number" step="any" name="bmi" required><br><br>
+  Children: <input type="number" name="children" required><br><br>
+  Smoker: <select name="smoker"><option>yes</option><option>no</option></select><br><br>
+  Region: <select name="region">
+    <option>southwest</option><option>southeast</option>
+    <option>northwest</option><option>northeast</option>
+  </select><br><br>
+  <button type="submit">Predict</button>
+</form>
+{% if result is not none %}<h3>Predicted charges: {{ result }}</h3>{% endif %}
