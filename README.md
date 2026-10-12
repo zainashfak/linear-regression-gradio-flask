@@ -24,3 +24,5 @@ python app_flask.py
 ## Screenshots
 ![Flask insurance](screenshots/flask_insurance.png)
 ![Flask concrete](screenshots/flask_concrete.png)
+![Gradio insurance](screenshots/gradio_insurance.png)
+![Gradio concrete](screenshots/gradio_concrete.png)
