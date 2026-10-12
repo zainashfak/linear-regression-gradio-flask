@@ -5,7 +5,7 @@ Linear Regression on two regression datasets, each with a Gradio and a Flask web
 ## Datasets
 | Dataset | Target | Rows | R2 | MAE | RMSE |
 |---|---|---|---|---|---|
-| Medical Insurance Cost | charges | 1338 | (fill in) | (fill in) | (fill in) |
+| Medical Insurance Cost | charges | 1338 | 0.7835 | 4181.1944 | 5796.2846 |
 | Concrete Compressive Strength | strength (MPa) | 1030 | 0.6276 | 7.7456 | 9.7965 |
 
 Source: https://github.com/stedy/Machine-Learning-with-R-datasets
